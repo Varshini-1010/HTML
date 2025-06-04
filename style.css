@@ -1,0 +1,10 @@
+.parent p{
+            font-family:cursive;
+            letter-spacing:2px;
+            text-transform:capitalize;
+            text-decoration:line-through;
+        }
+        p:hover{
+            color:blueviolet;
+            background-color:aqua;
+        }
