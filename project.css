@@ -1,0 +1,10 @@
+.head{
+    border: 10px;
+    background-color: aquamarine;
+}
+.body{
+    display: inline;
+    justify-content: end;
+    /* display:inline-block; */
+
+}
