@@ -1,10 +1,13 @@
 .head{
-    border: 10px;
+    border:50px ;
     background-color: aquamarine;
 }
-.body{
-    display: inline;
+.content ul{
+    list-style: none;
+    display: flex;
     justify-content: end;
-    /* display:inline-block; */
-
+}
+.content li{
+   
+    font-weight: bold;
 }
