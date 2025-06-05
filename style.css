@@ -35,4 +35,10 @@
         .fixed{
             position: fixed;
             left:150px;
-        }      
+        }  
+        .inline{
+            display:block;
+        } 
+        .display{
+            display:block;
+        }   
