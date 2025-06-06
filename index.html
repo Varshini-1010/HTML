@@ -6,7 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1><u>HTML</u></h1>
+     link</a><br>
+    <a href="parent.html" target="_self">my link</a><br>
+       <a href="position.html" target="_self">pos link</a><br>
+        <a href="display.html" target="_self">dis link</a><br>
+         <!-- <a href="navbar.html"target="_self">nav link</a><h1><u>HTML</u></h1>
     <!--h2>1.basic</h2-->
     <h3><b>ordered list</b></h3>
     <ol>
@@ -26,10 +30,17 @@
     <p>4<sup>2</sup>=16</p>
     <a href="about.html" target="_self">visit google</a><br>
     <a href="table.html" target="_self">link</a><br>
-    <a href="form.html" target="_self">visit link</a><br>
-    <a href="parent.html" target="_self">my link</a><br>
-       <a href="position.html" target="_self">pos link</a><br>
-        <a href="display.html" target="_self">dis link</a><br>
-         <a href="navbar.html"target="_self">nav link</a>
+    <a href="form.html" target="_self">visit</a>
+
+          <input type="text" id="name">
+            <button onclick=showName()>click</button>
+            <h1 id="result"></h1>
+
+         <script>
+            function showName(){
+                const name=document.getElementById('name').value
+                document.getElementById('result').innerText=`Hello ${name}`
+            }
+         </script>
 </body>
 </html
